@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #9135A2, #1B0A18);
+    text-align: center;
+    color: white;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    background: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkmark {
+    font-size: 32px;
+    color: #A3FFA3;
+}
+
+.start-button {
+    background: black;
+    border: 2px solid #A03FB1;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
